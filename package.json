@@ -1,6 +1,6 @@
 {
   "name": "weblearn-criterion-mse",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Mean squared error criterion",
   "main": "index.js",
   "scripts": {
