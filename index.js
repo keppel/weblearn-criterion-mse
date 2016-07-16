@@ -1,6 +1,7 @@
 'use strict'
 const { Tensor, Criterion } = require('weblearn')
 const _ = require('lodash')
+const old = require('old')
 
 class MSECriterion extends Criterion {
   constructor(sizeAverage) {
@@ -35,4 +36,4 @@ class MSECriterion extends Criterion {
   }
 }
 
-module.exports = MSECriterion
+module.exports = old(MSECriterion)
