@@ -1,5 +1,6 @@
 'use strict'
-const { Tensor, Criterion } = require('weblearn')
+const Tensor = require('weblearn-tensor')
+const Criterion = require('weblearn-criterion')
 const _ = require('lodash')
 const old = require('old')
 
